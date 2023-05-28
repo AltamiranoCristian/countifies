@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Countify</title>
+        <link rel="icon" href="../source/icons/logo.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/generalDash.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center m-5">
+            <div class="col-md-4">
+                <section id="dash-left">
+                    <div id="Logo">
+                        <img src="../source/icons/logoXL.png" alt="">
+                    </div>
+                    <nav class="menu-left">
+                        <div>
+                            <a href="./dashboard.html">Home</a>
+                        </div>
+                        <div>
+                            <a href="income.html">Ingreso</a>
+                        </div>
+                        <div>
+                            <a href="encome.html">Egreso</a>
+                        </div>
+                        <div>
+                            <a href="config.html">Configuracion</a>
+                        </div>
+                    </nav>
+                </section>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Ingresos</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Column 1</th>
+                                        <th scope="col">Column 2</th>
+                                        <th scope="col">Column 3</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="">
+                                        <td scope="row">R1C1</td>
+                                        <td>R1C2</td>
+                                        <td>R1C3</td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row">Item</td>
+                                        <td>Item</td>
+                                        <td>Item</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>
+                    <div class="card-footer">
+                        <input class="btn btn-success" type="button" value="Guardar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <main>
+        
+        <section id="dash-left">
+            <div id="Logo">
+                <img src="../source/icons/logoXL.png" alt="">
+            </div>
+            <nav class="menu-left">
+                <div>
+                    <a href="./dashboard.html">Home</a>
+                </div>
+                <div>
+                    <a href="income.html">Ingreso</a>
+                </div>
+                <div>
+                    <a href="encome.html">Egreso</a>
+                </div>
+                <div>
+                    <a href="config.html">Configuracion</a>
+                </div>
+            </nav>
+        </section>
+        
+        <section id="dash-right">
+            <header>
+                <h1>ACTIVIDAD</h1>
+                <div class="usuario">
+                    <img src="../source/icons/user.png" alt="" class="i-user">
+                    <span id="usuario">User</span>
+                    <a onclick="cerrar()">
+                        <img src="../source/icons/logout.png" alt="" id="logout">
+                    </a>
+                </div>
+            </header>
+            <article>
+                    <header>
+                        <h2>Enero 2020 - febrero 2020</h2>
+                    </header>
+                    <section>
+                        <div class="informacion">
+                            <span class="linea"></span>
+                            <div>
+                                <div class="ingresos">
+                                    <h3>INGRESOS</h3>
+                                    <span id="ingresos"></span>
+                                </div>
+                                <div class="egresos">
+                                    <h3>EGRESOS</h3>
+                                    <span id="egresos"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="graficas">
+                            <div>
+                                <h2>General</h2>
+                            <canvas id="myChart"></canvas>
+                            </div>
+                            <div>
+                                <h2>Ingresos</h2>
+                            <canvas id="grafica"></canvas>
+                            </div>
+                            <div>
+                                <h2>Egresos</h2>
+                            <canvas id="graficaEgreso"></canvas>
+                            </div>
+                        </div>
+                    </section>
+                </article>                                                                              
+        </section>
+    </main> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

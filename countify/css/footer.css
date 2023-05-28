@@ -1,0 +1,45 @@
+.footer {
+    width: 100%;
+    height: 42px;
+    background: #0B0D17;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer span {
+    color: #D9DBE1;
+    font-size: 14px;
+}
+
+/*iconos*/
+.fa {
+    color: #D9DBE1;
+}
+
+/* Icono de Facebook */
+.fa-facebook-f {
+    color: #D9DBE1;
+}
+
+/* Icono de Twitter */
+.fa-twitter {
+    color: #D9DBE1;
+}
+
+/* Icono de Instagram */
+.fa-instagram {
+    color: #D9DBE1;
+}
+
+/* Icono de LinkedIn */
+.fa-linkedin-in {
+    color: #D9DBE1;
+}

@@ -1,0 +1,27 @@
+@import url("./header.css");
+@import url("./front.css");
+@import url("./testimonials.css");
+@import url("./footer.css");
+
+/*funcion para que haga un barrido de la pagina mas suave*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#main {
+    height: 180vh;
+}

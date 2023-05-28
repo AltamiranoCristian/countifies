@@ -1,0 +1,10 @@
+.graficas{
+    width: 300px;
+    height: 400px;
+    display: flex;
+
+}
+canvas {
+    width: 300px;
+    height: 300px;
+  }

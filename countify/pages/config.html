@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countify</title>
+    <link rel="icon" href="../source/icons/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <link rel="stylesheet" href="../css/generalConfig.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <main>
+        <!--LEFT-->
+        <section id="dash-left">
+            <div id="Logo">
+                <img src="../source/icons/logoXL.png" alt="">
+            </div>
+            <nav class="menu-left">
+                <div>
+                    <a href="./dashboard.html">Home</a>
+                </div>
+                <div>
+                    <a href="income.html">Ingreso</a>
+                </div>
+                <div>
+                    <a href="encome.html">Egreso</a>
+                </div>
+                <div>
+                    <a href="config.html">Configuracion</a>
+                </div>
+            </nav>
+        </section>
+        <!--RIGHT-->
+        <section id="dash-right">
+            <header>
+                <h1>ACTIVIDAD</h1>
+                <div class="usuario">
+                    <img src="../source/icons/user.png" alt="" class="i-user">
+                    <span id="user">User</span>
+                    <a onclick="cerrar()">
+                        <img src="../source/icons/logout.png" alt="" id="logout">
+                    </a>
+                </div>
+            </header>
+            <form class="form" onsubmit="guardarDatos(event)">
+                <header>
+                    <h1>Basic Info</h1>
+                        <div class="buttons">
+                            <button type="submit">Save</button>
+                        </div>
+                </header>
+                <section>
+                            <div class="control">
+                                <label for="usuario">Usuario</label>
+                                <input type="text" id="usuario" name="usuario">
+                            </div>
+                            <div class="control">
+                                <label for="contraseña">Contraseña</label>
+                                <input type="text" id="contraseña" name="contraseña">
+                            </div>
+
+                        <div class="control">
+                            <label for="correo">Correo</label>
+                            <input type="email" id="correo" name="correo">
+                        </div>
+
+                            <div class="control">
+                                <label for="ingresos">Ingresos</label>
+                                <input type="number" id="ingresos" name="ingresos">
+                            </div>
+                            <div class="control">
+                                <label for="telefono">Telefono</label>
+                                <input type="text" id="telefono" name="telefono">
+                            </div>
+                </section>
+            </form>
+        </section>
+    </main>
+    <script src="../js/config.js"></script>
+</body>
+</html>

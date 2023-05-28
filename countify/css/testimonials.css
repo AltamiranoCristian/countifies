@@ -1,0 +1,94 @@
+/*Estlos para los testimonios de las personas*/
+.testimonials {
+    margin-top: -80px;
+    width: 100%;
+    height: 233px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 90px;
+    background: #F4F5F7;
+}
+
+.title {
+    width: auto;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.title h2 {
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #18191F;
+}
+
+.title p {
+    color: #18191F;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*Bloques*/
+.testi {
+    width: 100%;
+    height: 337px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.cajaT {
+    width: 350px;
+    height: 337px;
+}
+
+.cajaT .card {
+    width: 350px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card h3 {
+    text-align: center;
+    color: #18191F;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card p {
+    margin-top: -10px;
+    text-align: center;
+    font-size: 14px;
+    color: #18191F;
+}
+
+/*Usuarios en testimonios*/
+.cardImage {
+    margin-top: -25px;
+    width: 350px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -3;
+}
+
+#userT {
+    text-align: center;
+}
+
+#userT h4 {
+    margin: 1px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#userT span {
+    font-size: 14px;
+}

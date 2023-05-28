@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countify</title>
+    <link rel="icon" href="../source/icons/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../css/page2.css">
+    
+</head>
+
+<body>
+    <main id="main">
+        <section id="information">
+            <div class="partnes">
+                <h1>Partnership for Personal Growth</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun.</p>
+            </div>
+            <div class="titulos">
+                <img src="../source/icons/logo.png" alt="logo">
+                <span>Countify</span>
+            </div>
+        </section>
+        <section id="register">
+            <nav>
+                <a href="../index.html">Return Home</a>
+                <div class="member">
+                    <span>Not a member yet?</span><a href="./register.html"> JOIN NOW</a>
+                </div>
+
+            </nav>
+            <div class="formulario">
+                <h2>WELCOME BACK EXCLUSIVE MEMBER</h2>
+                <p>LOG IN TO CONTINUE</p>
+                <form onsubmit="login(event)">
+                    <div class="input-container">
+                        <label for=""><img src="../source/icons/userIn.png" alt=""></label>
+                        <input type="text" id="user" name="user" placeholder="Johnson Doe">
+                    </div>
+                    <div class="input-container">
+                        <label for=""><img src="../source/icons/padlock.png" alt=""></label>
+                        <input type="password" id="password" name="password" placeholder="*********">
+                    </div>
+                    <div>
+                        <button type="submit">Proceed to my Account<span class="icono"><img
+                                    src="../source/icons/flecha-derecha.png" alt=""></span></button>
+                    </div>
+                    <span id="response"></span>
+                </form>
+            </div>
+            <div class="foot">
+                <p>Copyright 2021 - 2022 Countify Inc. All rights Reserved</p>
+                <div>
+                    <span>Need help?</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

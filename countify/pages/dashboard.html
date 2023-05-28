@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Countify</title>
+        <link rel="icon" href="../source/icons/logo.png">
+        
+        <link rel="stylesheet" href="../css/generalDash.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+<body>
+    <main >
+        <!--Left-->
+        <section id="dash-left">
+            <div id="Logo">
+                <img src="../source/icons/logoXL.png" alt="">
+            </div>
+            <nav class="menu-left">
+                <div>
+                    <a href="./dashboard.html">Home</a>
+                </div>
+                <div>
+                    <a href="ingresos.html">Ingreso</a>
+                </div>
+                <div>
+                    <a href="encome.html">Egreso</a>
+                </div>
+                <div>
+                    <a href="config.html">Configuracion</a>
+                </div>
+            </nav>
+        </section>
+        <!--Right-->
+        <section id="dash-right">
+            <header>
+                <h1>ACTIVIDAD</h1>
+                <div class="usuario">
+                    <img src="../source/icons/user.png" alt="" class="i-user">
+                    <span id="usuario">User</span>
+                    <a onclick="cerrar()">
+                        <img src="../source/icons/logout.png" alt="" id="logout">
+                    </a>
+                </div>
+            </header>
+            <article>
+                    <header>
+                        <h2>Enero 2020 - febrero 2020</h2>
+                    </header>
+                    <section>
+                        <div class="informacion">
+                            <span class="linea"></span>
+                            <div>
+                                <div class="ingresos">
+                                    <h3>INGRESOS</h3>
+                                    <span id="ingresos"></span>
+                                </div>
+                                <div class="egresos">
+                                    <h3>EGRESOS</h3>
+                                    <span id="egresos"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="graficas">
+                            <div>
+                                <h2>General</h2>
+                            <canvas id="myChart"></canvas>
+                            </div>
+                            <div>
+                                <h2>Ingresos</h2>
+                            <canvas id="grafica"></canvas>
+                            </div>
+                            <div>
+                                <h2>Egresos</h2>
+                            <canvas id="graficaEgreso"></canvas>
+                            </div>
+                        </div>
+
+                    </section>
+                </article>
+                                                                                  
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

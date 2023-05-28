@@ -1,0 +1,64 @@
+/*Estilos para el front donde se ve el circulo*/
+.front {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-top: 21px;
+}
+
+#circle {
+    width: 640px;
+    height: 640px;
+    border-radius: 100%;
+    background: #380ABC;
+    position: relative;
+    right: -100px;
+}
+
+.slogan {
+    width: 540px;
+    height: 470px;
+    position: relative;
+    top: -40px;
+}
+
+.slogan h1 {
+    height: 294;
+    font-size: 72px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.slogan p {
+    height: 160px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+#getStarted {
+    width: 154px;
+    height: 48px;
+    background-color: #380ABC;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    top: -30px;
+}
+
+.containerI {
+    width: 520px;
+    height: 430px;
+    background: url(../source/images/prueba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 105px;
+    right: -82px;
+    border-radius: 6px;
+    border: none;
+}

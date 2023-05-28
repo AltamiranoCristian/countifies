@@ -1,0 +1,24 @@
+@import url("./login.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
